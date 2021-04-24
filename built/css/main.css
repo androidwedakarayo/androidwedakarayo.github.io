@@ -4861,7 +4861,7 @@ blockquote {
   }
 
   .brand {
-    padding-left: 18px;
+    padding-left: 0px;
   }
 
   .pin-stripe.hide-horizontal-mobile {
@@ -5349,7 +5349,7 @@ blockquote {
   }
 
   .brand {
-    padding-left: 18px;
+    padding-left: 0px;
     -webkit-box-align: stretch;
     -webkit-align-items: stretch;
     -ms-flex-align: stretch;
