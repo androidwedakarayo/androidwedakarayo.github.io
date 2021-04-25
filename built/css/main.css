@@ -12223,6 +12223,7 @@ blockquote {
     grid-column-end: span 1;
   }
 }
+/*
 @font-face {
   font-family: 'Eudoxussans';
   src: url('https://uploads-ssl.webflow.com/60769be367d38ecbebb63fbb/60769be467d38e5460b64050_EudoxusSans-Regular.woff2') format('woff2'), url('https://uploads-ssl.webflow.com/60769be367d38ecbebb63fbb/60769be467d38e4e06b6404e_EudoxusSans-Regular.woff') format('woff'), url('https://uploads-ssl.webflow.com/60769be367d38ecbebb63fbb/60769be467d38e7edbb64044_EudoxusSans-Regular.ttf') format('truetype');
@@ -12264,4 +12265,4 @@ blockquote {
   font-weight: 500;
   font-style: normal;
   font-display: swap;
-}
+}*/
