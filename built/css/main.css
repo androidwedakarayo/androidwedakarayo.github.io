@@ -3707,7 +3707,7 @@ blockquote {
   right: 0%;
   bottom: auto;
   height: 116%;
-  background-image: url("https://uploads-ssl.webflow.com/60769be367d38ecbebb63fbb/60769be467d38e8f8ab64016_Space002.jpeg");
+  background-image: url("../../images/image-cover-wrapper.jpg");
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -3718,7 +3718,7 @@ blockquote {
 }
 
 .background-banner.projects-banner {
-  background-image: url("https://uploads-ssl.webflow.com/60769be367d38ecbebb63fbb/60769be467d38e12b0b6401d_Space013.jpeg");
+  background-image: url("../../images/image-cover-wrapper.jpg");
 }
 
 .background-banner.team-banner {
