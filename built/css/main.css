@@ -986,9 +986,9 @@ blockquote {
     align-items: center;
     border-style: solid;
     border-width: 1px;
-    border-color: #090b19;
+    border-color: #ff5b46;
     border-radius: 100px;
-    background-color: #090b19;
+    background-color: #ff5b46;
     -webkit-transition: all 400ms cubic-bezier(.25, .46, .45, .94);
     transition: all 400ms cubic-bezier(.25, .46, .45, .94);
     color: #fff;
@@ -1002,7 +1002,7 @@ blockquote {
 .button:hover {
     border-color: #e2e7f1;
     background-color: #e2e7f1;
-    color: #090b19;
+    color: #ff5b46;
 }
 
 .button.small {
