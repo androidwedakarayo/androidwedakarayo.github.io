@@ -1099,7 +1099,7 @@ blockquote {
     -ms-flex-align: center;
     align-items: center;
     border-right: 1px solid hsla(0, 0%, 100%, 0.1);
-    background-color: rgba(9, 11, 25, 0.5);
+    background-color: #ff5c4681;
     font-size: 14px;
     letter-spacing: 2px;
     text-transform: uppercase;
