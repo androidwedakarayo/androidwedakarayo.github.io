@@ -761,7 +761,7 @@ blockquote {
 }
 
 .stripe-wrapper {
-    position: fixed;
+    position: absolute;
     left: auto;
     top: 0%;
     right: auto;
