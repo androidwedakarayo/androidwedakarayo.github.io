@@ -771,8 +771,8 @@ blockquote {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 100vw;
-    min-width: 100vw;
+    width: 100%;
+    min-width: 100%;
     margin-right: auto;
     margin-left: auto;
     padding-right: 5vw;
@@ -2380,7 +2380,7 @@ blockquote {
     right: 0px;
     bottom: 0%;
     display: none;
-    width: 100vw;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
     -webkit-box-pack: center;
@@ -2554,7 +2554,7 @@ blockquote {
     bottom: 0%;
     display: -ms-grid;
     display: grid;
-    width: 100vw;
+    width: 100%;
     height: 100%;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
@@ -2644,7 +2644,7 @@ blockquote {
     right: auto;
     z-index: 15;
     overflow: hidden;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
@@ -3169,7 +3169,7 @@ blockquote {
     display: -ms-flexbox;
     display: flex;
     min-height: 100vh;
-    min-width: 100vw;
+    min-width: 100%;
     background-color: rgba(9, 11, 25, 0.5);
 }
 
