@@ -18,6 +18,22 @@ body {
     margin: 0
 }
 
+::-webkit-scrollbar {
+    width: 12px !important;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #ff5b46; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b23f30; 
+  }
+
 article,
 aside,
 details,
