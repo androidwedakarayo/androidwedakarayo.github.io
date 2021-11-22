@@ -27,7 +27,7 @@ body {
 }
 
  ::-webkit-scrollbar-thumb {
-    background: #7c40a9;
+    background: #761a9f;
 }
 
  ::-webkit-scrollbar-thumb:hover {
@@ -463,7 +463,7 @@ blockquote {
 
 .section.dark {
     z-index: 10;
-    background-color: #7c40a9;
+    background-color: #761a9f;
     color: #fff;
 }
 
@@ -1002,9 +1002,9 @@ blockquote {
     align-items: center;
     border-style: solid;
     border-width: 1px;
-    border-color: #7c40a9;
+    border-color: #761a9f;
     border-radius: 100px;
-    background-color: #7c40a9;
+    background-color: #761a9f;
     -webkit-transition: all 400ms cubic-bezier(.25, .46, .45, .94);
     transition: all 400ms cubic-bezier(.25, .46, .45, .94);
     color: #fff;
@@ -1018,7 +1018,7 @@ blockquote {
 .button:hover {
     border-color: #e2e7f1;
     background-color: #e2e7f1;
-    color: #7c40a9;
+    color: #761a9f;
 }
 
 .button.small {
@@ -1115,7 +1115,7 @@ blockquote {
     -ms-flex-align: center;
     align-items: center;
     border-right: 1px solid hsla(0, 0%, 100%, 0.1);
-    background-color: #7c40a981;
+    background-color: #761a9f81;
     font-size: 14px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -4472,7 +4472,7 @@ blockquote {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: #7c40a9;
+    background-color: #761a9f;
     color: #fff;
 }
 
