@@ -1,0 +1,664 @@
+<!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
+<!--  Last Published: Sat May 07 2022 04:00:49 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="6275eea49c4d286a3266fb2a" data-wf-site="6275eea39c4d28eb5666fb23">
+<head>
+  <meta charset="utf-8">
+  <title>Thimira Madhusanka&#x27;s Stupendous Site</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/thimira-madhusankas-stupendous-site.webflow.css" rel="stylesheet" type="text/css">
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon"><!--  Hey Webflow friends! If you clone this site, please delete this Google Tag Manager code. Thanks!!  -->
+  <!--  Google Tag Manager  -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W6L9GHX');</script>
+  <!--  End Google Tag Manager  -->
+  <style>
+   /* Remove tap highlight on mobile */
+input, textarea, button, select, a {  
+   -webkit-tap-highlight-color: transparent;
+tap-highlight-color: transparent;
+   }
+  /*smooth text*/
+  body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+  }
+</style>
+</head>
+<body>
+  <div class="html-embed w-embed">
+    <style>
+/*colorize text selection */
+::-moz-selection { /* Firefox */  
+background: #ff8177;   
+}
+::selection {
+background: #ff8177;   
+}
+.p-gradient-1 {
+  background: linear-gradient(90deg, #ff8177, #8437fd );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.p-gradient-2 {
+  background: linear-gradient(90deg, #FDC779, #F4CFF1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.no-events {
+pointer-events: none;
+}
+@media screen and (max-height: 600px) {
+.nav {
+padding-top: 2rem;
+}
+.p-huge {
+font-size: 2.5vw;
+}
+.p-oversized {
+font-size: 6vw;
+}
+.p-large {
+font-size: 1.3rem;
+}
+.h-huge {
+font-size: 3.5vw;
+}
+.list-bullet-wrapper {
+    height: 1.5rem;
+    min-width: 1.5rem;
+}
+</style>
+  </div>
+  <div class="main-wrapper">
+    <div class="section mt-normal mb-normal">
+      <div class="lmtr-narrow">
+        <h1 class="h-oversized">Grid &amp; layout</h1>
+        <p class="p-normal-l">Grid system is a good old 12 column layout, bootstrap-style. Main building blocks are sections inside which grid components or simple blocks could be inserted. Sections already have paddings so that they have some spacing between them if placed one after another.</p>
+        <p class="p-normal-l v-last">There are a few modifications to grid components that wold allow for flexibility when creating different layouts.</p>
+      </div>
+    </div>
+    <div class="mb-large">
+      <div class="section">
+        <div class="lmtr-narrow">
+          <h2 class="h-large">Default grid</h2>
+          <p class="p-normal-l">Below is a default grid configuration. The main elements of a grid are grid rows, inside of which there are columns. Each column has paddings on all sides and each row has negative left and right margins to make content line up with the base grid edges. This allows to wrap columns inside rows when necessary without the need to worry about columns being too close to each other.</p>
+          <p class="p-normal-l">Default column element grows if possible so you can just put as many similarly sized columns as necessary, they won&#x27;t wrap. For customization of column width we use additional classes that specify what part of the row this column should take. Sizes are all in relative units.</p>
+        </div>
+        <div class="grid-row">
+          <div class="col col-1">
+            <div class="fill"></div>
+          </div>
+          <div class="col col-11">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="col col-2">
+            <div class="fill"></div>
+          </div>
+          <div class="col col-10">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="col col-3">
+            <div class="fill"></div>
+          </div>
+          <div class="col col-9">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="col col-4">
+            <div class="fill"></div>
+          </div>
+          <div class="col col-8">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="col col-5">
+            <div class="fill"></div>
+          </div>
+          <div class="col col-7">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="col col-6">
+            <div class="fill"></div>
+          </div>
+          <div class="col col-6">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="col col-12">
+            <div class="fill"></div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="lmtr-narrow">
+          <p class="p-normal-l">By default each column stays the same from the widest to the narrowest breakpoints. Special classes ensure their responsive behaviour on different screen width. Classes we use make columns span either 50% of the row width or 100% on any breakpoint (tablet, mobile landscape, and mobile portrait). Below are examples of using such classes. First we make our columns just fill 100% of the width on certain breakpoints:</p>
+        </div>
+        <div class="grid-row">
+          <div class="col col-1 col-100-t">
+            <div class="fill"></div>
+          </div>
+          <div class="col col-11 col-100-t">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="col col-2 col-100-t">
+            <div class="fill"></div>
+          </div>
+          <div class="col col-10 col-100-t">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="col col-3 col-100-ml">
+            <div class="fill"></div>
+          </div>
+          <div class="col col-9 col-100-ml">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="col col-4 col-100-ml">
+            <div class="fill"></div>
+          </div>
+          <div class="col col-8 col-100-ml">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="col col-5 col-100-mp">
+            <div class="fill"></div>
+          </div>
+          <div class="col col-7 col-100-mp">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="col col-6 col-100-mp">
+            <div class="fill"></div>
+          </div>
+          <div class="col col-6 col-100-mp">
+            <div class="fill"></div>
+          </div>
+        </div>
+      </div>
+      <div class="section mb-normal">
+        <div class="lmtr-narrow">
+          <p class="p-normal-l">Now we make our columns first fill 50% of the width and then 100%.</p>
+        </div>
+        <div class="grid-row">
+          <div class="col col-1 col-50-t col-100-ml">
+            <div class="fill"></div>
+          </div>
+          <div class="col col-11 col-50-t col-100-ml">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="col col-2 col-50-t">
+            <div class="fill"></div>
+          </div>
+          <div class="col col-10 col-50-t">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="col col-3 col-50-ml col-100-mp">
+            <div class="fill"></div>
+          </div>
+          <div class="col col-9 col-50-ml col-100-mp">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="col col-4 col-50-ml">
+            <div class="fill"></div>
+          </div>
+          <div class="col col-8 col-50-ml">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="col col-5 col-50-mp">
+            <div class="fill"></div>
+          </div>
+          <div class="col col-7 col-50-mp">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="col col-6 col-50-mp">
+            <div class="fill"></div>
+          </div>
+          <div class="col col-6 col-50-mp">
+            <div class="fill"></div>
+          </div>
+        </div>
+      </div>
+      <div class="section mb-normal">
+        <div class="lmtr-narrow">
+          <h2 class="h-large">Components grid</h2>
+          <p class="p-normal-l">In some instances our layout grid may be a bit too spacey for the inner components of our interface. For such occasions we have a special sort of grid — grid for components. It can be modified to be tighter than layout grid but otherwise has the same behaviour and the same classes that modify our default grid apply to this grid as well.</p>
+        </div>
+        <div class="grid-row-com">
+          <div class="col-com col-1">
+            <div class="fill"></div>
+          </div>
+          <div class="col-com col-11">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row-com">
+          <div class="col-com col-2">
+            <div class="fill"></div>
+          </div>
+          <div class="col-com col-10">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row-com">
+          <div class="col-com col-3">
+            <div class="fill"></div>
+          </div>
+          <div class="col-com col-9">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row-com">
+          <div class="col-com col-4">
+            <div class="fill"></div>
+          </div>
+          <div class="col-com col-8">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row-com">
+          <div class="col-com col-5">
+            <div class="fill"></div>
+          </div>
+          <div class="col-com col-7">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row-com">
+          <div class="col-com col-6">
+            <div class="fill"></div>
+          </div>
+          <div class="col-com col-6">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row-com">
+          <div class="col-com col-12">
+            <div class="fill"></div>
+          </div>
+        </div>
+      </div>
+      <div class="section nopad mb-normal">
+        <div class="lmtr-narrow mb-normal">
+          <h2 class="h-large">Full width grid</h2>
+          <p class="p-normal-l">Sometimes we need our section to span the whole width of the page and our elements inside the grid to not have paddings or margins. In such cases we use special sections without paddings, grid rows without negative margins, and columns themselves without paddings.</p>
+        </div>
+        <div class="grid-row row-nomar">
+          <div class="col nopad">
+            <div class="fill"></div>
+          </div>
+          <div class="col nopad">
+            <div class="fill f2"></div>
+          </div>
+          <div class="col nopad">
+            <div class="fill f3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section mb-normal">
+      <div class="lmtr-wide">
+        <h2 class="h-large">Limiting content span</h2>
+        <p class="p-normal-l">We use special classes that limit our content and center it like the blocks of text we have on this page. There are two types of limiters — one is limiting our content but allows for wide enough width like here.</p>
+      </div>
+      <div class="lmtr-narrow mb-normal">
+        <p class="p-normal-l">And then we have another than is limiting our content in width even more. It is useful for longer text blocks when we want to make sure the reading experience is optimized.</p>
+        <div class="grid-row row-nomar">
+          <div class="col nopad">
+            <div class="fill"></div>
+          </div>
+          <div class="col nopad">
+            <div class="fill f2"></div>
+          </div>
+          <div class="col nopad">
+            <div class="fill f3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section mb-normal">
+      <div class="lmtr-narrow mb-normal">
+        <h2 class="h-large">Columns offset</h2>
+        <p class="p-normal-l">When the column needs to be placed not at the beginnig of the row but offset we use special offset classes that shift our columns where we want them.</p>
+      </div>
+      <div class="grid-row">
+        <div class="col col-1 off-11">
+          <div class="fill"></div>
+        </div>
+      </div>
+      <div class="grid-row">
+        <div class="col col-2 off-10">
+          <div class="fill"></div>
+        </div>
+      </div>
+      <div class="grid-row">
+        <div class="col col-3 off-9">
+          <div class="fill"></div>
+        </div>
+      </div>
+      <div class="grid-row">
+        <div class="col col-4 off-8">
+          <div class="fill"></div>
+        </div>
+      </div>
+      <div class="grid-row">
+        <div class="col col-5 off-7">
+          <div class="fill"></div>
+        </div>
+      </div>
+      <div class="grid-row">
+        <div class="col col-6 off-6">
+          <div class="fill"></div>
+        </div>
+      </div>
+      <div class="grid-row">
+        <div class="col col-7 off-5">
+          <div class="fill"></div>
+        </div>
+      </div>
+      <div class="grid-row">
+        <div class="col col-8 off-4">
+          <div class="fill"></div>
+        </div>
+      </div>
+      <div class="grid-row">
+        <div class="col col-9 off-3">
+          <div class="fill"></div>
+        </div>
+      </div>
+      <div class="grid-row">
+        <div class="col col-10 off-2">
+          <div class="fill"></div>
+        </div>
+      </div>
+      <div class="grid-row">
+        <div class="col col-11 off-1">
+          <div class="fill"></div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="lmtr-narrow mb-normal">
+        <h2 class="h-large">Modifying classes</h2>
+        <p class="p-normal-l">Below is a selection of classes that modify grid and layout. The ones responsible for column width, offset, layout margins, etc.</p>
+      </div>
+      <div class="section">
+        <div class="grid-row">
+          <div class="col-1">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="col-2">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="col-3">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="col-4">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="col-5">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="col-6">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="col-7">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="col-8">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="col-9">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="col-10">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="col-11">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="col-12">
+            <div class="fill"></div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="grid-row">
+          <div class="off-1">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="off-2">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="off-3">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="off-4">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="off-5">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="off-6">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="off-7">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="off-8">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="off-9">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="off-10">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="off-11">
+            <div class="fill"></div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="grid-row">
+          <div class="col-100-t">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="col-100-ml">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="col-100-mp">
+            <div class="fill"></div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="grid-row">
+          <div class="col-50-t">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="col-50-ml">
+            <div class="fill"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="col-50-mp">
+            <div class="fill"></div>
+          </div>
+        </div>
+      </div>
+      <div class="section mb-normal">
+        <div class="mb-0"></div>
+        <div class="mb-huge"></div>
+        <div class="mt-huge"></div>
+        <div class="ml-huge"></div>
+        <div class="mr-huge"></div>
+        <div class="mb-large"></div>
+        <div class="mt-large"></div>
+        <div class="ml-large"></div>
+        <div class="mr-large"></div>
+        <div class="mb-normal"></div>
+        <div class="mt-normal"></div>
+        <div class="ml-normal"></div>
+        <div class="mr-normal"></div>
+        <div class="mb-small"></div>
+        <div class="mt-small"></div>
+        <div class="ml-small"></div>
+        <div class="mr-small"></div>
+        <div class="mb-tiny"></div>
+        <div class="mt-tiny"></div>
+        <div class="ml-tiny"></div>
+        <div class="mr-tiny"></div>
+      </div>
+      <div class="section">
+        <div class="lmtr-narrow mb-normal">
+          <h2 class="h-large">Flex modifiers</h2>
+          <p class="p-normal-l">Below is a selection of possible flex parent combinations. We name it by using first letters of flex properties (as seen in Webflow designer). These classes can be used to quickly modify layout of the blocks of content.</p>
+        </div>
+        <div class="flex-h-as-jsa"></div>
+        <div class="flex-h-as-jsb"></div>
+        <div class="flex-h-as-je"></div>
+        <div class="flex-h-as-jc"></div>
+        <div class="flex-h-ab-js"></div>
+        <div class="flex-h-ast-js"></div>
+        <div class="flex-h-ae-js"></div>
+        <div class="flex-h-ac-js"></div>
+        <div class="cantread-stydy-link"></div>
+        <div class="flex-v-as-jsa"></div>
+        <div class="flex-v-as-jsb"></div>
+        <div class="flex-v-as-je"></div>
+        <div class="flex-v-as-jc"></div>
+        <div class="flex-v-ab-js"></div>
+        <div class="flex-v-ast-js"></div>
+        <div class="flex-v-ae-js"></div>
+        <div class="flex-v-ac-js"></div>
+        <div class="flex-v-as-js"></div>
+      </div>
+    </div>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6275eea39c4d28eb5666fb23" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  <script>
+// animate percentage of users
+const $percentUsers = $('#percent-users');
+let german = parseFloat($percentUsers.text(),10);
+$('.btn-wrapper-disabler').click(function(){ 
+  if(!$(this).hasClass('inactive')){
+	setTimeout(()=>{
+    let total = 0;
+    $('.graph-fill').each(function(i, lang){
+    		const height = $(lang)[0].style.height;
+        parseFloat(height,10) ? total += parseFloat(height,10) : total += 0;
+    });
+    total += german;
+    const start = parseFloat($percentUsers.text(),10);
+    const range = total - start;
+    const duration = range < 10 ? 500 : range < 20 ? 1000 : 2000;
+    animateValue('percent-users', start, total, duration);
+    },400);
+    $(this).addClass('inactive');
+  }  
+});
+function animateValue(id, start, end, duration) {
+    const range = end - start;
+    let current = start;
+    const increment = end > start ? 1 : -1;
+    const stepTime = Math.abs(Math.floor(duration / range)); 
+    const obj = document.getElementById(id);
+    const timer = setInterval(function() {
+        //current += increment;
+        current += (end - current < increment? end - current : increment);
+        obj.textContent = current.toFixed(1) + '%';
+        if (current == end) {
+            clearInterval(timer);
+        }
+    }, stepTime);
+}
+</script>
+</body>
+</html>

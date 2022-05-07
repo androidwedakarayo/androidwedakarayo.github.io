@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 593.5 593.5">
+  <defs>
+    <linearGradient id="a" x2="593.5" y1="296.75" y2="296.75" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff77fc"/>
+      <stop offset=".49" stop-color="#ff9ba8"/>
+      <stop offset="1" stop-color="#ffc053"/>
+    </linearGradient>
+  </defs>
+  <circle cx="296.75" cy="296.75" r="294.75" fill="none" stroke="url(#a)" stroke-miterlimit="10" stroke-width="4"/>
+</svg>

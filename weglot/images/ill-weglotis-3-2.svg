@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97.91 88.72">
+  <defs>
+    <linearGradient id="a" x2="14.11" y1="81.66" y2="81.66" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f8f8fd"/>
+      <stop offset=".63" stop-color="#e9eafe"/>
+      <stop offset=".99" stop-color="#e9eafe"/>
+      <stop offset="1" stop-color="#e9eafe"/>
+    </linearGradient>
+  </defs>
+  <path fill="#fff" d="M0 0h97.91v74.6H0z"/>
+  <path fill="#3c46fb" d="M14.97 12.53h6.55v50.4h-6.55z" opacity=".34"/>
+  <path fill="#3c46fb" d="M14.97 47.62h6.55v15.3h-6.55z"/>
+  <path fill="#3c46fb" d="M25.18 12.53h6.55v50.4h-6.55z" opacity=".34"/>
+  <path fill="#3c46fb" d="M25.18 38.52h6.55v24.4h-6.55z"/>
+  <path fill="#3c46fb" d="M35.38 12.53h6.55v50.4h-6.55z" opacity=".34"/>
+  <path fill="#3c46fb" d="M35.38 27.04h6.55v35.88h-6.55z"/>
+  <path fill="#3c46fb" d="M45.58 12.53h6.55v50.4h-6.55z" opacity=".34"/>
+  <path fill="#3c46fb" d="M45.58 24.08h6.55v38.84h-6.55z"/>
+  <path fill="#3c46fb" d="M55.78 12.53h6.55v50.4h-6.55z" opacity=".34"/>
+  <path fill="#3c46fb" d="M55.78 29.04h6.55v33.89h-6.55z"/>
+  <path fill="#3c46fb" d="M65.99 12.53h6.55v50.4h-6.55z" opacity=".34"/>
+  <path fill="#3c46fb" d="M65.99 34.82h6.55v28.11h-6.55z"/>
+  <path fill="#3c46fb" d="M76.19 12.53h6.55v50.4h-6.55z" opacity=".34"/>
+  <path fill="#3c46fb" d="M76.19 48.87h6.55v14.05h-6.55z"/>
+  <path fill="url(#a)" d="M0 74.6l14.11 14.12V74.6H0z"/>
+</svg>
